@@ -1,3 +1,8 @@
+:root {
+    /* --selected_font: "DM Sans", sans-serif; */
+    --selected_font: 'Courier New', Courier, monospace;
+}
+
 body {
     background-color: lightgray;
 }
@@ -51,7 +56,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--selected_font);
 }
 
 .library {
@@ -80,7 +85,7 @@ body {
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--selected_font);
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -121,7 +126,7 @@ body {
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--selected_font);
 }
 
 .section-playlist__content .title {
@@ -141,7 +146,7 @@ body {
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--selected_font);
     text-decoration: none;
     text-transform: none;
     padding: 10px;
