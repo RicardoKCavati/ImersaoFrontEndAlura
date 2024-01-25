@@ -1,0 +1,7 @@
+:root {
+    --font: "DM Sans", sans-serif;
+    /* --selected_font: 'Courier New', Courier, monospace; */
+    /* Colours */
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0, 0, , 0, 0.7);
+}
