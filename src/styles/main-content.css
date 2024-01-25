@@ -74,7 +74,8 @@
     outline: none;
 }
 
-.header__login .subscribe, .header__login .login {
+.header__login .subscribe,
+.header__login .login {
     border: none;
 }
 
