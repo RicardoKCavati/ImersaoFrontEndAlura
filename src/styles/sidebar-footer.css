@@ -1,6 +1,6 @@
 body {
-    background-color: darkgray;
     font-family: var(--font);
+    background-color: #000000;
 }
 
 /* h1 {
