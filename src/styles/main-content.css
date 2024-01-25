@@ -96,6 +96,8 @@
     border-radius: 40px;
 }
 
+/* Projeto igualado */
+
 .offer__scroll-container {
     max-height: 43vh;
     margin: 24px;
@@ -130,9 +132,6 @@
 .cards span {
     padding: 16px;
     position: absolute;
-    /* absolute:
-                            Comportamento em relação ao ancestral posicionado mais próximo ou ao elemento raiz (se nenhum ancestral estiver posicionado).
-                            Remove do fluxo normal: O elemento é removido do fluxo normal do documento, o que significa que outros elementos agem como se o elemento não estivesse presente. */
     color: var(--text-base-light);
     font-size: 24px;
     font-weight: 700;
