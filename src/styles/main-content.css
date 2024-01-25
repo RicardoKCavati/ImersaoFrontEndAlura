@@ -13,10 +13,10 @@
     padding: 16px;
     margin: 10px;
     border-radius: 8px;
-    background-color: #121212;
+    background-color: #000;
 }
 
-.header__navigation .navigation {    
+.header__navigation .navigation {
     display: flex;
     /* justify-content: space-around;
     align-items: center; */
