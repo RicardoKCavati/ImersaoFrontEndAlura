@@ -1,19 +1,22 @@
 import React from "react";
 import './Header.css';
+import smallRight from "..assets/icons/small-right.png"
+import smallLeft from "..assets/icons/small-left.png"
+import search from "../assets/icons/search.png"
 
 const Header = () => {
     return (
         <nav className="header__navigation">
             <div className="navigation">
                 <button className="arrow-left">
-                    <img src="./src/assets/icons/small-left.png" alt="Seta para a esquerda" />
+                    <img src={smallLeft} alt="Seta para a esquerda" />
                 </button>
                 <button className="arrow-right">
-                    <img src="./src/assets/icons/small-right.png" alt="Seta para a direita" />
+                    <img src={smallRight} alt="Seta para a direita" />
                 </button>
             </div>
             <div className="header__search">
-                <img src="./src/assets/icons/search.png" />
+                <img src={search} />
                 <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
             </div>
             <div className="header__login">
@@ -23,3 +26,5 @@ const Header = () => {
         </nav>
     );
 };
+
+export default Header;
