@@ -1,5 +1,6 @@
 import react from "react";
 import './Sidebar.css';
+import spotifyLogo from "../assets/icons/logo-spotify.png";
 
 const Sidebar = () => {
     return (
@@ -7,7 +8,7 @@ const Sidebar = () => {
             <nav className="sidebar__navigation">
                 <div className="logo">
                     <a href="">
-                        <img src="./src/assets/icons/logo-spotify.png" alt="Logo do spotify" />
+                        <img src={spotifyLogo} alt="Logo do spotify" />
                     </a>
                 </div>
                 <ul>
